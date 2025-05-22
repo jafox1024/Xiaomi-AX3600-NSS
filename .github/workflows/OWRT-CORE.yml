@@ -23,6 +23,8 @@ on:
       OWRT_IP:
         required: true
         type: string
+  #手动编译
+  workflow_dispatch:
 
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
